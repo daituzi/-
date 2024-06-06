@@ -2,6 +2,9 @@
 
 int main()
 {
-	printf("first test");
+	printf("second test");
+	printf("second test2");
+	printf("second test3");
+
 	return 0;
 }
