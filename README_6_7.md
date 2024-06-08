@@ -13,7 +13,7 @@ Markdown笔记。从第一节课开始<br>
   * 程序员在开发时对代码资源的迭代和修改，都可以通过commit的方式进行记录，便于回溯代码
 * branch分支
   * 在仓库中包含多个分支，分支才算是代码的第一存储单位，默认的仓库分支为master（本地）\<br\>
-    和main（云端）；不仅可以管理代码存储，还便于多人协作开发。
+    和main（云端）；不仅可以管理代码存储，还便于多人协作开发。示意图如右图所示：
  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240608/2156956e5da0074e238196236507e75a70.png)
 
 
