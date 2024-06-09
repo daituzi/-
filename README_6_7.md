@@ -19,6 +19,7 @@ Markdown笔记。从第一节课开始<br>
  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240608/2156956e5da0074e238196236507e75a70.png)
 
 ## 二、命令操作
+### 设备认证
 * 设备认证
   * 让网站的账户与设备绑定，后续完成代码的管理，上传下载
     1. git init //创建本地仓库，后续对仓库的操作，都在仓库位置。如下图<br>
