@@ -35,4 +35,16 @@ Markdown笔记。从第一节课开始<br>
   ssh -T git@github.com测试是否成功。如下图：<br>
   [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/12370cd7d3ca6f44ada6e0808044b361e9.png)<br>
 
+* 为仓库起别名，定位目标仓库，方便上传
+  * git remote add origin "仓库SSH地址"设置别名 <br>
+    git remote remove origin 删除别名；如下图
+    [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1542cd8674063e48af9b6932be7fbc0ca5.png) <br>
+### 本地设备与云端仓库的交互逻辑
+* 将代码压入git缓冲区：git add code.c
+提交到本地仓库：git commit "提交说明"(git commit -m "first upload")
+将本地仓库主分支master更新到云端仓库默认分支main(版本更新)：git push origin master(若上传的本地分支与云端默认分支一致，则合并分支；不一致就在云端仓库下创建新分支存储master)
+  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1546ba00d0d8b5458bbbf076427d67f989.png)
+  命令行代码示意图：
+  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1548bc8e0c82994723ab60abe693b34c21.png)
+
 
