@@ -16,7 +16,7 @@ Markdown笔记。从第一节课开始<br>
   * 在仓库中包含多个分支，分支才算是代码的第一存储单位，默认的仓库分支为master（本地）
   和main（云端）；不仅可以管理代码存储，还便于多人协作开发。
   示意图如图所示：
- [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240608/2156956e5da0074e238196236507e75a70.png)
+ [本地及云端示意图](https://picture.gptkong.com/20240608/2156956e5da0074e238196236507e75a70.png)
 
 ## 二、命令操作
 ### 设备认证
