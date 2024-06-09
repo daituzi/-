@@ -27,5 +27,12 @@ Markdown笔记。从第一节课开始<br>
        [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1208825fad7484457b8fe6e641175f777b.png)
     3. git config --global user.email "邮箱号";<br>
        git config --global user.name "昵称" 。如下图<br>
-       [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png)
+       [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png) <br>
+---
+* 设置密文
+  * ssh-keygen -t  rsa -C ''注册邮箱''(用于创建本地密文)SSH远程访问。去对应目录查找密文文件，找.pub文件，复制到网站里，头像，设置，ssh密文，key new，标题随意写，key要写，密码重新写；
+  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1234813c0448f6434ab447c01cd9cf30f6.png)
+  ssh -T git@github.com测试是否成功。如下图：<br>
+  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/12370cd7d3ca6f44ada6e0808044b361e9.png)
+---
 
