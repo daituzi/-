@@ -25,7 +25,7 @@ Markdown笔记。从第一节课开始<br>
     [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/115416cb67672346c393397d03fd142c7f.png)
     2. git config --list  //查看git的配置文件。如下图<br>
        [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1208825fad7484457b8fe6e641175f777b.png)
-    3. git config --global user.email "邮箱号"
-    4. git config --global user.name "昵称" 。如下图<br>
+    3. git config --global user.email "邮箱号";<br>
+       git config --global user.name "昵称" 。如下图<br>
        [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png)
 
