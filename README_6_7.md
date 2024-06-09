@@ -23,28 +23,28 @@ Markdown笔记。从第一节课开始<br>
 * 设备认证
   * 让网站的账户与设备绑定，后续完成代码的管理，上传下载
     1. git init //创建本地仓库，后续对仓库的操作，都在仓库位置。如下图<br>
-    [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/115416cb67672346c393397d03fd142c7f.png)
+    [创建仓库代码](https://picture.gptkong.com/20240609/115416cb67672346c393397d03fd142c7f.png)
     2. git config --list  //查看git的配置文件。如下图<br>
-       [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1208825fad7484457b8fe6e641175f777b.png)
+       [查看配置文件](https://picture.gptkong.com/20240609/1208825fad7484457b8fe6e641175f777b.png)
     3. git config --global user.email "邮箱号";<br>
        git config --global user.name "昵称" 。如下图<br>
-       [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png)<br>
+       [记录邮箱号和昵称](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png)<br>
 
 * 设置密文
   * ssh-keygen -t  rsa -C ''注册邮箱''(用于创建本地密文)SSH远程访问。去对应目录查找密文文件，找.pub文件，复制到网站里，头像，设置，ssh密文，key new，标题随意写，key要写，密码重新写；<br>
-  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1234813c0448f6434ab447c01cd9cf30f6.png)<br>
+  [设置密文](https://picture.gptkong.com/20240609/1234813c0448f6434ab447c01cd9cf30f6.png)<br>
   ssh -T git@github.com测试是否成功。如下图：<br>
-  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/12370cd7d3ca6f44ada6e0808044b361e9.png)<br>
+  [成功设置密文](https://picture.gptkong.com/20240609/12370cd7d3ca6f44ada6e0808044b361e9.png)<br>
 
 * 为仓库起别名，定位目标仓库，方便上传
   * git remote add origin "仓库SSH地址"设置别名 <br>
     git remote remove origin 删除别名；如下图
-    [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1542cd8674063e48af9b6932be7fbc0ca5.png) <br>
+    [仓库起别名代码](https://picture.gptkong.com/20240609/1542cd8674063e48af9b6932be7fbc0ca5.png) <br>
 ### 本地设备与云端仓库的交互逻辑
 * 将代码压入git缓冲区：git add code.c
 提交到本地仓库：git commit "提交说明"(git commit -m "first upload")
 将本地仓库主分支master更新到云端仓库默认分支main(版本更新)：git push origin master(若上传的本地分支与云端默认分支一致，则合并分支；不一致就在云端仓库下创建新分支存储master)
-  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1546ba00d0d8b5458bbbf076427d67f989.png)
+  [交互逻辑示意图](https://picture.gptkong.com/20240609/1546ba00d0d8b5458bbbf076427d67f989.png)
   命令行代码示意图：
   [命令行代码示意图](https://picture.gptkong.com/20240609/1548bc8e0c82994723ab60abe693b34c21.png)
 
@@ -56,11 +56,11 @@ git rebase --skip  本地的舍掉，只要云端
 git rebase --abort
 git rebase --continue
   * 直接更改云端后，本地上传失败，提示用pull
-    [https://picture.gptkong.com/20240609/160376777186354a91a97f452c1b8e167a.png](https://picture.gptkong.com/20240609/160376777186354a91a97f452c1b8e167a.png)
+    [更改云端提示](https://picture.gptkong.com/20240609/160376777186354a91a97f452c1b8e167a.png)
   * pull之后，与本地内容合并
-    [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/16056f7ad8f1924e9f96d2c1d6ea79cdeb.png)
+    [代码示意图](https://picture.gptkong.com/20240609/16056f7ad8f1924e9f96d2c1d6ea79cdeb.png)
   * 合并成功
-    [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/16066a66e7c4204d008087ae04210649cc.png)
+    [示意图](https://picture.gptkong.com/20240609/16066a66e7c4204d008087ae04210649cc.png)
   * 代码修改再上传云端
 ```c
       git add "文件名"
