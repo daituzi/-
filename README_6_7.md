@@ -78,6 +78,8 @@ git clone 上述地址
 markdown语言
 github可以编写readme，文本修饰语言
 #### Markdown
+* 具体功能查看README.md
+* 查看链接：[https://github.com/daituzi/-/blob/master/README.md](https://www.github.com "点击访问")
 
 
 
