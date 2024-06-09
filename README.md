@@ -68,3 +68,15 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 	#include<iostream>
 	
 ```
+### 超链接
+[链接自定义别名](https://github.com/daituzi/-/blob/master/README.md)
+方括号里是显示的链接的自定义名称；圆括号里是链接地址
+
+### 插入图片
+* 方式1：
+![图片名](D://colinC++//四阶段笔记//超链接和图片链接.png "标题")
+这种方法只能自己查看，但是不能让GitHub读取到图片链接。因此一般使用方法2
+* 方法2：
+[Markdown命令行1](https://picture.gptkong.com/20240609/16426a220136ee4a9da015b07025146ae4.png)
+[Markdown命令行2](https://picture.gptkong.com/20240609/16438588d44dfb4064b5d5b9f3c5e2ac24.png)
+这种方法适用于各种情况。与超链接相同。
