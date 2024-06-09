@@ -48,4 +48,39 @@ Markdown笔记。从第一节课开始<br>
   命令行代码示意图：
   [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1548bc8e0c82994723ab60abe693b34c21.png)
 
+### 代码更新的依赖关系被破坏
+* 如果更新逻辑被破坏，即直接在云端更改代码：一般来说本地内容比云端的新，完成更新替换。但是如果直接修改云端代码，导致本地内容无法再次提交。
+  * 解决办法：先拉取git pull 云端内容，与本地内容合并或操作，然后再次push即可
+git pull --rebase origin master
+git rebase --skip  本地的舍掉，只要云端
+git rebase --abort
+git rebase --continue
+  * 直接更改云端后，本地上传失败，提示用pull
+    [https://picture.gptkong.com/20240609/160376777186354a91a97f452c1b8e167a.png](https://picture.gptkong.com/20240609/160376777186354a91a97f452c1b8e167a.png)
+  * pull之后，与本地内容合并
+    [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/16056f7ad8f1924e9f96d2c1d6ea79cdeb.png)
+  * 合并成功
+    [https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/16066a66e7c4204d008087ae04210649cc.png)
+  * 代码修改再上传云端
+```c
+      git add "文件名"
+      git commit -m "备注自定义名"
+      git push origin master //上传至云端
+```
+### 下载代码
+* 使用命令下载HTTPS地址
+git clone 上述地址
+下载到了仓库文件夹
+删除文件夹也要提交(一套逻辑)
+
+### 分支branch 
+* 关于分支的相关命令，创建分支，选择分支，合并分支等
+markdown语言
+github可以编写readme，文本修饰语言
+#### Markdown
+
+
+
+
+
 
