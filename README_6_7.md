@@ -46,7 +46,7 @@ Markdown笔记。从第一节课开始<br>
 将本地仓库主分支master更新到云端仓库默认分支main(版本更新)：git push origin master(若上传的本地分支与云端默认分支一致，则合并分支；不一致就在云端仓库下创建新分支存储master)
   [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1546ba00d0d8b5458bbbf076427d67f989.png)
   命令行代码示意图：
-  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1548bc8e0c82994723ab60abe693b34c21.png)
+  [命令行代码示意图](https://picture.gptkong.com/20240609/1548bc8e0c82994723ab60abe693b34c21.png)
 
 ### 代码更新的依赖关系被破坏
 * 如果更新逻辑被破坏，即直接在云端更改代码：一般来说本地内容比云端的新，完成更新替换。但是如果直接修改云端代码，导致本地内容无法再次提交。
@@ -79,7 +79,7 @@ markdown语言
 github可以编写readme，文本修饰语言
 #### Markdown
 * 具体功能查看README.md
-* 查看链接：[测试](https://github.com/daituzi/-/blob/master/README.md "点击访问")
+* 查看链接：[README.md](https://github.com/daituzi/-/blob/master/README.md "点击访问")
 
 
 
