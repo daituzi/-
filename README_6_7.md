@@ -1,4 +1,5 @@
 Markdown笔记。从第一节课开始<br>
+---
 # Github基本命令
 
 ## 一、GitHub三要素
@@ -12,8 +13,23 @@ Markdown笔记。从第一节课开始<br>
 * commit提交
   * 程序员在开发时对代码资源的迭代和修改，都可以通过commit的方式进行记录，便于回溯代码
 * branch分支
-  * 在仓库中包含多个分支，分支才算是代码的第一存储单位，默认的仓库分支为master（本地）<br>
-  和main（云端）；不仅可以管理代码存储，还便于多人协作开发。示意图如右图所示：
+  * 在仓库中包含多个分支，分支才算是代码的第一存储单位，默认的仓库分支为master（本地）
+  和main（云端）；不仅可以管理代码存储，还便于多人协作开发。
+  示意图如图所示：
  [https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240608/2156956e5da0074e238196236507e75a70.png)
 
+## 二、命令操作
+### 1、设备认证
+    * 让网站的账户与设备绑定，后续完成代码的管理，上传下载
+```c
+        git init //创建本地仓库，后续对仓库的操作，都在仓库位置
+	git config --list  //查看git的配置文件
+	git config --global user.email "邮箱号"
+	git config --global user.name "昵称" 
+```
+    * git init //创建本地仓库,如下图[https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/115416cb67672346c393397d03fd142c7f.png)
+    * git config --list  //查看git的配置文件，如下图[https://github.com/daituzi/-/blob/master/README\_6\_7.md](https://picture.gptkong.com/20240609/1208825fad7484457b8fe6e641175f777b.png)
+    * git config --global user.email "邮箱号"
+      git config --global user.name "昵称"
+      如下图[https://github.com/daituzi/-/blob/master/README_6_7.md](https://picture.gptkong.com/20240609/121028098d83464be1aafa4d6dd77fe1d3.png)
 
