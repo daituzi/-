@@ -99,11 +99,17 @@ github可以编写readme，文本修饰语言
 * 2、星号* ：向前参照，表示该表达式出现零次或多次：如grep 'a*' 源文件 ，则显示包含a(高亮)和没有a的；aa*，则只有a开头的才有(a表示a出现1次，a*表示a出现0次或多次)
   ![a*](https://picture.gptkong.com/20240613/1155043978ec434b92bde0c5342b383ce4.png)
   ** 正则表达式为a\+时，表示该表达式出现一次或多次
+  ![a\+](https://picture.gptkong.com/20240613/132191615abb6348248200245aa29e68cb.png)
   ** 正则表达式为a时，是以单个a做查询的，效率低，查询结果同上，有a的才会输出
+  ![a](https://picture.gptkong.com/20240613/1322f872c7cf2949219f22aefeca14851e.png)
 * 3、^a ：向后一个表达式作为参照，a为行首
+  ![^a](https://picture.gptkong.com/20240613/1323375aef75704cc7a6a77e2c823b4018.png)
 * 4、a$ ：向前一个表达式作为参照，a为行尾
+  ![a$](https://picture.gptkong.com/20240613/132357ad2ea7824857955f3e0a4ff11d4c.png)
 * 5、点. :表示任意的一个字符出现0次或多次
+  ![.](https://picture.gptkong.com/20240613/1324034552b68b4900a3fa6a0d7adbbdf2.png)
 * 6、方括号[]：表达式集合，集合出现时表示任意一个表达式
+  ![]()
   ** [ab]xxx，可以匹配到axxx和bxxx
   ** 常用写法：
   1. 小写字母集合[a-z]
